@@ -46,13 +46,13 @@ class _HomeState extends State<Home> {
         "Levemente Acima do Peso \n(IMC: ${imc.toStringAsPrecision(3)})";
       } else if (imc >= 29.9 && imc < 34.9) {
         _imcResult =
-        "Obesidade Grau I \n(IMC: ${imc.toStringAsPrecision(3)})";
+        "OBESIDADE GRAU I \n(IMC: ${imc.toStringAsPrecision(3)})";
       } else if (imc >= 34.9 && imc < 39.9) {
         _imcResult =
-        "Obesidade Grau II \n(IMC: ${imc.toStringAsPrecision(3)})";
+        "OBESIDADE GRAU II \n(IMC: ${imc.toStringAsPrecision(3)})";
       } else if (imc >= 40) {
         _imcResult =
-        "Obesidade Grau III \n(IMC: ${imc.toStringAsPrecision(3)})";
+        "OBESIDADE GRAU III \n(IMC: ${imc.toStringAsPrecision(3)})";
       }
     });
   }
